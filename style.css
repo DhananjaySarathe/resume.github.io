@@ -1,0 +1,106 @@
+body{
+    background-color: antiquewhite;
+}
+
+#header{
+    padding: 3% 3%;
+    border: 5px solid;
+    margin: 3px;
+    /* text-align: center; */
+}
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 7vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+li{
+    font-size: 130%;
+    text-decoration: underline;
+    position:relative;
+    left:40px;
+}
+
+.profile-pic{
+    width: 20%;
+    border: 3px solid;
+    float: left;
+    transform: translateY(50px);
+
+}
+
+.line
+{
+    margin-top: 10px;
+    background-color: black;
+    font-size: 2px;
+}
+
+
+#material
+{
+    border: 5px solid;
+    padding: 8px 0 8px 0;;
+    margin: 0 30px 0 30px;
+}
+
+.obj{
+    text-decoration: underline;
+}
+
+.data{
+    font-size: 70%;
+    line-height: 0.1;
+}
+
+.personal_data{
+    text-decoration: underline;
+}
+
+
+@media (max-width:970px) {
+    .list{
+        /* margin: 0 auto; */
+        /* transform: translateX(150px); */
+        /* padding-right: 70spx; */
+        padding: 0 30px ;
+    }
+
+    body{
+        font-size: 70%;
+    }
+
+    .profile-pic{
+        width: 15%;
+        transform: translateY(20px);
+    }
+    h1{
+        font-size: 500%;
+    }
+    .row
+    {
+        text-align: center;
+    }
+
+    li{
+        /* color: antiquewhite; */
+        visibility: hidden;
+    }
+    .li-data
+    {
+        /* color: black; */
+        visibility: visible;
+    }
+}
+
+@media (max-width: 780px) {
+    .profile-pic
+    {
+        width: 17%;
+        transform: translateY(80px);
+    }
+}
